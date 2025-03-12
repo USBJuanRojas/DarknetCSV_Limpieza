@@ -30,4 +30,5 @@ def transformacion():
 transformacion()
 tiempo()
 print(df2.info())
+print(df2.describe())
 df2.to_csv("C:/Users/jroja/OneDrive/Documents/big data/Actividad2/Darknet2.csv", index=False)
